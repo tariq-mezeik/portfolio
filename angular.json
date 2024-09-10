@@ -89,6 +89,13 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/portfolio/",
+            "repo": "https://github.com/tariq-mezeik/portfolio.git"
+          }
         }
       }
     }
